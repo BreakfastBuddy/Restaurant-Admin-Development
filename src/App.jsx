@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css'
-import loginPage from './pages/loginPage';
+import LoginPage from './pages/LoginPage';
+
 const App = () => {
   return (
     <div className="app">
-      <loginPage/>
+    <LoginPage/>
     </div>
   );
 };
